@@ -10,8 +10,8 @@ public class HelloController {
     public String index() {
         return "Greetings from Spring Boot!";
     }
-    @GetMapping({"/health", "/v1/ailen"})
+    @GetMapping({"/v1/testing"})
     public String multiPathEndpoint() {
-        return "Funcionando perfectamente, amo y señor del springboot que no ceno hamburguesa ayer por wey.";
+        return "Testing from SpringBoot";
     }
 }
