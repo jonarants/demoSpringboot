@@ -74,6 +74,15 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+    			<groupId>org.apache.maven.plugins</groupId>
+    			<artifactId>maven-compiler-plugin</artifactId>
+    			<!-- Upgrade this version line right here -->
+    			<version>3.15.0</version> 
+    			<configuration>
+        			<release>25</release>
+    			</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
